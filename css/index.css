@@ -185,9 +185,58 @@ header nav a {
 }
 .one h2 {
   font-size: 3rem;
+  text-align: center;
 }
 .one p {
   width: 45%;
   font-size: 12px;
   line-height: 2rem;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 5% auto;
+  border-top: 2px dashed #384786;
+  border-bottom: 2px dashed #384786;
+}
+.two .two-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4% 0;
+}
+.two .two-container h2 {
+  width: 25%;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.two .two-container p {
+  width: 45%;
+  font-size: 12px;
+  line-height: 1.5rem;
+}
+footer {
+  background-color: #384786;
+  color: #FDF269;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+}
+footer .copyright {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .copyright h3 {
+  font-size: 2.5rem;
+}
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+footer nav a {
+  text-decoration: none;
+  color: #FDF269;
 }
