@@ -146,10 +146,12 @@ h5 {
 .main-container {
   width: 900px;
   margin: 0 auto;
+  background-color: #FDF269;
 }
 header {
   background-color: #384786;
   padding: 2%;
+  margin: 2% 0;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -160,7 +162,7 @@ header .title {
 }
 header .title h1 {
   font-size: 5rem;
-  color: #FFEBCD;
+  color: #FDF269;
   text-align: center;
 }
 header nav {
@@ -172,6 +174,20 @@ header nav {
 header nav a {
   font-size: 2rem;
   text-decoration: none;
-  color: #FFEBCD;
+  color: #FDF269;
   font-family: 'Amatic SC';
+}
+.one {
+  margin: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.one h2 {
+  font-size: 3rem;
+}
+.one p {
+  width: 45%;
+  font-size: 12px;
+  line-height: 2rem;
 }
