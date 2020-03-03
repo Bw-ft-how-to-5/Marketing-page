@@ -1,0 +1,63 @@
+.one {
+  // TODO background image
+  background-image: url("/images/main_image.jpg");
+  // color: @general; 
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    width: 40%;
+    font-size: 3rem;
+    text-align: center;
+  } // closes h2
+
+  p {
+    padding: 1% 4%;
+    width: 45%;
+    font-size: 14px;
+    line-height: 2rem;
+  } // closes paragraph
+
+  div {
+    width: 40%;
+    text-align: center;
+
+    .registration-btn {
+      .button(@general, @primary, 1rem, 2%, center);
+    } //closes registration-btn
+  } // closes div
+} // closes one
+
+.two {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 5% auto;
+  border-top: 2px dashed @primary;
+  border-bottom: 2px dashed @primary;
+
+  .two-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4% 0;
+
+    h2 {
+      width: 25%;
+      font-size: 2.5rem;
+      text-align: center;
+    } // closes h2
+
+    p {
+      width: 45%;
+      font-size: 12px;
+      line-height: 1.5rem;
+    } // closes paragraph
+  } // closes two-container
+} // closes two
+
+.three {
+
+} // closes three
