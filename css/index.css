@@ -126,30 +126,52 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Playfair Display';
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Amatic SC';
+}
 .main-container {
-  width: 800px;
+  width: 900px;
   margin: 0 auto;
 }
 header {
   background-color: #384786;
   padding: 2%;
-  height: 10vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
+header .title {
+  display: flex;
+  justify-content: space-between;
+}
 header .title h1 {
-  font-size: 2rem;
+  font-size: 5rem;
   color: #FFEBCD;
+  text-align: center;
 }
 header nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 10vh;
+  height: 12vh;
 }
 header nav a {
-  font-size: 1rem;
+  font-size: 2rem;
   text-decoration: none;
   color: #FFEBCD;
+  font-family: 'Amatic SC';
 }

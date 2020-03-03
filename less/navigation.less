@@ -1,16 +1,22 @@
 header {
   background-color: @main-background;
   padding: 2%;
-  height: 10vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 
   .title {
+    display: flex;
+    justify-content: space-between;
+
+    // .logo {
+
+    // } // closes logo
 
     h1 {
-      font-size: 2rem;
+      font-size: 5rem;
       color: @general;
+      text-align: center;
     } // closes h1
   } // closes title
 
@@ -18,12 +24,13 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 10vh;
+    height: 12vh;
 
     a {
-      font-size: 1rem;
+      font-size: 2rem;
       text-decoration: none;
       color: @general;
+      font-family: 'Amatic SC';
     } // closes a 
   } // closes nav
   
