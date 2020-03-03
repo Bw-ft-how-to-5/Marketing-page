@@ -143,62 +143,69 @@ h4,
 h5 {
   font-family: 'Amatic SC';
 }
-.main-container {
-  width: 900px;
-  margin: 0 auto;
-  background-color: #FDF269;
-}
 header {
-  background-color: #384786;
-  padding: 2%;
-  margin: 2% 0;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-header .title {
+  background-color: #535974;
+  padding: 1.5%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-header .title h1 {
-  font-size: 5rem;
-  color: #FDF269;
+header h1 {
+  font-size: 2.5rem;
+  color: #FFEBCD;
   text-align: center;
 }
 header nav {
+  width: 40%;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  height: 12vh;
 }
 header nav a {
   font-size: 2rem;
   text-decoration: none;
-  color: #FDF269;
+  color: #FFEBCD;
   font-family: 'Amatic SC';
 }
 .one {
-  margin: 5%;
+  background-image: url("/images/laptop_words.jpg");
+  height: 50vh;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .one h2 {
+  width: 40%;
   font-size: 3rem;
   text-align: center;
 }
 .one p {
+  padding: 1% 4%;
   width: 45%;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 2rem;
+}
+.one div {
+  width: 40%;
+  text-align: center;
+}
+.one div .registration-btn {
+  color: #FFEBCD;
+  background-color: #535974;
+  border-radius: 1rem;
+  padding: 2%;
+  text-align: center;
+}
+.one div .registration-btn:hover {
+  color: #535974;
+  background-color: #FFEBCD;
 }
 .two {
   display: flex;
   flex-direction: column;
   width: 80%;
   margin: 5% auto;
-  border-top: 2px dashed #384786;
-  border-bottom: 2px dashed #384786;
+  border-top: 2px dashed #535974;
+  border-bottom: 2px dashed #535974;
 }
 .two .two-container {
   display: flex;
@@ -217,8 +224,8 @@ header nav a {
   line-height: 1.5rem;
 }
 footer {
-  background-color: #384786;
-  color: #FDF269;
+  background-color: #535974;
+  color: #FFEBCD;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -238,5 +245,7 @@ footer nav {
 }
 footer nav a {
   text-decoration: none;
-  color: #FDF269;
+  color: #FFEBCD;
+  font-size: 2rem;
+  font-family: 'Amatic SC';
 }

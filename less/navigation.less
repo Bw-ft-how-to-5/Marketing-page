@@ -1,38 +1,26 @@
 header {
-  background-color: @secondary-background;
-  padding: 2%;
-  margin: 2% 0;
+  background-color: @main-background;
+  padding: 1.5%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 
-  .title {
-    display: flex;
-    justify-content: space-between;
-
-    // .logo {
-
-    // } // closes logo
-
-    h1 {
-      font-size: 5rem;
-      color: @primary;
-      text-align: center;
-    } // closes h1
-  } // closes title
+  h1 {
+    font-size: 2.5rem;
+    color: @general;
+    text-align: center;
+  } // closes h1
 
   nav {
+    width: 40%;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    height: 12vh;
 
     a {
       font-size: 2rem;
       text-decoration: none;
-      color: @primary;
+      color: @general;
       font-family: 'Amatic SC';
     } // closes a 
   } // closes nav
-  
 } // closes header
