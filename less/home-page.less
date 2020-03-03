@@ -1,11 +1,14 @@
 .one {
-  // TODO background image
   background-image: url("/images/main_image.jpg");
   // color: @general; 
   height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @media @mobile {
+    align-items: center;
+  } // closes media query
 
   h2 {
     width: 40%;
@@ -18,6 +21,11 @@
     width: 45%;
     font-size: 14px;
     line-height: 2rem;
+
+  @media @mobile {
+    width: 100%;
+    font-size: 12px;
+  } // closes media query
   } // closes paragraph
 
   div {

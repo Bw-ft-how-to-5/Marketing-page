@@ -173,6 +173,11 @@ header nav a {
   flex-direction: column;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .one {
+    align-items: center;
+  }
+}
 .one h2 {
   width: 40%;
   font-size: 3rem;
@@ -183,6 +188,12 @@ header nav a {
   width: 45%;
   font-size: 14px;
   line-height: 2rem;
+}
+@media (max-width: 500px) {
+  .one p {
+    width: 100%;
+    font-size: 12px;
+  }
 }
 .one div {
   width: 40%;
@@ -270,6 +281,11 @@ footer {
 footer h3 {
   font-size: 2.5rem;
 }
+@media (max-width: 500px) {
+  footer h3 {
+    font-size: 1.5rem;
+  }
+}
 footer nav {
   display: flex;
   justify-content: space-between;
@@ -280,4 +296,9 @@ footer nav a {
   color: #FFEBCD;
   font-size: 2rem;
   font-family: 'Amatic SC';
+}
+@media (max-width: 500px) {
+  footer nav {
+    display: none;
+  }
 }
