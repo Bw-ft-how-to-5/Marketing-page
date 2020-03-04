@@ -167,7 +167,7 @@ header nav a {
   font-family: 'Amatic SC';
 }
 .one {
-  background-image: url("/images/main_image.jpg");
+  background-image: url('/images/main_image.jpg');
   height: 50vh;
   display: flex;
   flex-direction: column;
@@ -247,6 +247,12 @@ header nav a {
   font-size: 10rem;
   text-align: center;
 }
+@media (max-width: 500px) {
+  .top-content h1 {
+    font-size: 8rem;
+    color: #535974;
+  }
+}
 .about-us {
   display: flex;
   flex-wrap: wrap;
@@ -257,18 +263,44 @@ header nav a {
   margin: 0 auto;
   padding: 2%;
 }
+@media (max-width: 500px) {
+  .about-us {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+}
 .about-us .card-info {
   width: 30%;
   padding: 2%;
   text-align: center;
 }
+@media (max-width: 500px) {
+  .about-us .card-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 4% 0;
+  }
+}
 .about-us .card-info h3 {
   font-size: 3rem;
   margin-bottom: 4%;
 }
+@media (max-width: 500px) {
+  .about-us .card-info h3 {
+    font-size: 2rem;
+  }
+}
 .about-us .card-info p {
   line-height: 2rem;
   font-size: 12px;
+}
+@media (max-width: 500px) {
+  .about-us .card-info p {
+    font-size: 10px;
+    width: 60%;
+  }
 }
 footer {
   background-color: #535974;
