@@ -15,6 +15,10 @@
     width: 40%;
     font-size: 5rem;
     text-align: center;
+
+    @media @tablet {
+      font-size: 6rem;
+    } // closes media query
   } // closes h2
 
   p {
@@ -27,15 +31,30 @@
       width: 100%;
       font-size: 12px;
     } // closes media query
+
+    @media @tablet {
+      width: 90%;
+      line-height: 3rem;
+      text-align: center;
+    } // closes media query
   } // closes paragraph
 
   div {
     width: 40%;
     text-align: center;
 
+    @media @tablet {
+      width: 90%;
+      padding: 2%;
+    } // closes media query
+
     .registration-btn {
       .button(@general, @primary, 1rem, 2%, center);
       width: 100%;
+      
+      @media @tablet {
+        font-size: 1.5rem;
+      } // closes media query
     } //closes registration-btn
   } // closes div
 } // closes one
@@ -54,16 +73,31 @@
     align-items: center;
     margin: 4% 0;
 
+    
+    @media @tablet {
+      flex-direction: column;
+    } // closes media query 
+
     h2 {
       width: 25%;
-      font-size: 2.5rem;
+      font-size: 3rem;
       text-align: center;
+
+      @media @tablet {
+        margin: 2% 0;
+      } // closes media query
     } // closes h2
 
     p {
       width: 45%;
       font-size: 12px;
-      line-height: 1.5rem;
+      line-height: 3rem;
+
+      @media @tablet {
+        font-size: 14px;
+        width: 90%;
+        margin-bottom: 4%;
+      } // closes media query
     } // closes paragraph
   } // closes two-container
 } // closes two

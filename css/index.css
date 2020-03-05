@@ -189,6 +189,11 @@ header nav a:hover {
   font-size: 5rem;
   text-align: center;
 }
+@media (max-width: 800px) {
+  .one h2 {
+    font-size: 6rem;
+  }
+}
 .one p {
   padding: 1% 4%;
   width: 45%;
@@ -201,9 +206,22 @@ header nav a:hover {
     font-size: 12px;
   }
 }
+@media (max-width: 800px) {
+  .one p {
+    width: 90%;
+    line-height: 3rem;
+    text-align: center;
+  }
+}
 .one div {
   width: 40%;
   text-align: center;
+}
+@media (max-width: 800px) {
+  .one div {
+    width: 90%;
+    padding: 2%;
+  }
 }
 .one div .registration-btn {
   color: #FFEBCD;
@@ -216,6 +234,11 @@ header nav a:hover {
 .one div .registration-btn:hover {
   color: #535974;
   background-color: #FFEBCD;
+}
+@media (max-width: 800px) {
+  .one div .registration-btn {
+    font-size: 1.5rem;
+  }
 }
 .two {
   display: flex;
@@ -231,15 +254,32 @@ header nav a:hover {
   align-items: center;
   margin: 4% 0;
 }
+@media (max-width: 800px) {
+  .two .two-container {
+    flex-direction: column;
+  }
+}
 .two .two-container h2 {
   width: 25%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-align: center;
+}
+@media (max-width: 800px) {
+  .two .two-container h2 {
+    margin: 2% 0;
+  }
 }
 .two .two-container p {
   width: 45%;
   font-size: 12px;
-  line-height: 1.5rem;
+  line-height: 3rem;
+}
+@media (max-width: 800px) {
+  .two .two-container p {
+    font-size: 14px;
+    width: 90%;
+    margin-bottom: 4%;
+  }
 }
 .top-content {
   background-color: #FFEBCD;
@@ -276,6 +316,11 @@ header nav a:hover {
     width: 100%;
     height: auto;
     flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .about-us {
+    width: 90%;
   }
 }
 .about-us .card-info {
@@ -323,7 +368,7 @@ footer h3 {
 }
 @media (max-width: 500px) {
   footer h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 footer nav {
@@ -342,6 +387,11 @@ footer nav a:hover {
   color: #535974;
 }
 @media (max-width: 500px) {
+  footer nav {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
   footer nav {
     display: none;
   }
